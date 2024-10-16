@@ -21,7 +21,7 @@ Base sqlserver-windows on docker for local test.
 Al montar un volumen en el directorio D:/ es necesario poner los archivos necesarios para restaurar la bd (.zip con certificados, .bak, script para restaurar certificados) en una carpeta con el nombre del volumen definido en el compose.yaml en el host.
 **ej: D:/sqlserver2022test**
 
-![image-20241016131642683](C:\Users\AbelGallardo\AppData\Roaming\Typora\typora-user-images\image-20241016131642683.png)
+**![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfBZV951P5499LIRrHngSphCxHGEfsYAjXGmzWU5JA1t79-e1Hq3b_hefmt7xTZTnyMq-E2xde6XvYYF7htp4R2kXEDT3-WQ8FdzE3CyNUO725giA-og-bnfRHDGTtQB2fr_UxhZDa3JWloNtuCB_E-03FS?key=PU9bhJ3U7ZXMHu3rK2yQEg)**
 
 
 
