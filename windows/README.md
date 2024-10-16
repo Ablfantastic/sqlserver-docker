@@ -12,9 +12,9 @@ Base sqlserver-windows on docker for local test.
 
 1. **compose.yaml**
 
-*login en azure:* az acr login -n acrsabentisimages
+*login en azure:* `az acr login -n acrsabentisimages`
 
-*imagen* : acrsabentisimages.azurecr.io/windowscontainers/sqlserver2022base:v1.0.6
+*imagen* : `acrsabentisimages.azurecr.io/windowscontainers/sqlserver2022base:v1.0.6`
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXenCLAcGIAulf8wi9TF9mJ3F22UHzjSII6mhD4RxGJaNmpkJQB5qWsVhWOye0JD1OrnO37gNPveWw_UAlq7HBgfhQZGw3Gc1k3ZY3PdmfCELabK_1Ain9PT1zu697ytu7NzYrSHaPIQE7qOzBdKSsVzOP51?key=PU9bhJ3U7ZXMHu3rK2yQEg)
 
