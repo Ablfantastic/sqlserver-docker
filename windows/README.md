@@ -1,7 +1,11 @@
 # sqlserver-docker
 Base sqlserver-windows on docker for local test.
 
+**In case network does not exist:** 
+`docker network create --driver nat --subnet=192.168.1.0/24 mynetwork`
 
+**Launch container:** 
+`C:/folders/repository/windows/ $> docker compose up --build` 
 
 
 
