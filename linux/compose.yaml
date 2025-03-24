@@ -11,7 +11,7 @@ services:
       ACCEPT_EULA: "Y"
       MSSQL_PID: "Express"
     volumes:
-      - sqlserverdata:/var/opt/mssql
+      - d:\volumes\sqlserverdata:/sqlserverdata
     networks:
       - sqlservernetwork
 

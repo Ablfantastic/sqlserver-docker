@@ -1,6 +1,6 @@
 services:  
   sqlserver-windows:
-    image: acrsabentisimages.azurecr.io/windowscontainers/sqlserver2022base:v1.0.6
+    image: acrsabentisimages.azurecr.io/windowscontainers/sqlserver2022base:v1.0.5
     container_name: sql_server-windows
     environment:
       - MSSQL_ADMIN_USERNAME=sa
@@ -10,7 +10,7 @@ services:
       - MSSQL_PATH_BACKUP=d:\backup
       - MSSQL_PATH_SYSTEM=d:\system
     volumes:
-      - d:/sqlserver2022test:d:/
+      - d:/backup:d:/
     networks:
       mynetwork:
         ipv4_address: 192.168.1.5
